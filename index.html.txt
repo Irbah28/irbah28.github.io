@@ -1,0 +1,76 @@
+
+# test.progate.github
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Progate<title>
+      <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-logo">Progate</div>
+      <div slass="header-list">
+        <ul>
+          <li>About</li>
+          <li>Lessons</li>
+          <li>Contact us</li>
+        </ul>
+      </div>
+    </div>
+ 
+    <div class="main">
+      <div class="copy-container">
+        <h1>HELLO WORLD!</h1>
+        <h2>Let's learn to code</h2>
+      </div>
+    
+      <div class="contents">
+        <h3 class="section-title">Lessons</h3>
+        <div class="contents-item">
+          <img src="https://www.seekpng.com/png/detail/222-2229726_intro-to-html-css-html-css-icon.png" alt="HTML & CSS logo"/>
+          <p>HTML & CSS</p>
+        </div>
+        <div class="contents-item">
+          <img src="https://www.php.net/images/logos/new-php-logo.svg" alt="PHP logo" />
+          <p>PHP</p>
+        </div>
+        <div class="contents-item">
+          <img src="https://img.favpng.com/6/4/2/ruby-on-rails-programming-language-computer-programming-logo-png-favpng-MKkMhmQJK9WcJL8fF3ct9UfUN.jpg" alt="Ruby logo" />
+          <p>Ruby</p>
+        </div>
+        <div class="contents-item">
+          <img src="https://w7.pngwing.com/pngs/912/253/png-transparent-apple-worldwide-developers-conference-swift-apple-developer-eagle-security-logo-text-logo-computer-programming.png" alt="Swift logo" />
+          <p>Swift</p>
+        </div>
+      </div>  
+      
+      <div class="contact-form">
+        <h3 class="section-title">Contact us</h3>
+        <p>Email (Required)</p>
+        <!--Add an <input> tag -->
+        <input>
+        
+        <p>Message (Required)</p>
+        <!--Add an <textarea> tag -->
+        <textarea></textarea>
+        
+        <p>*Required fields must be filled</p>
+        <!--Add an <input> tag -->
+        <input class="contact-submit" type="submit" value="Send" />
+        
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-logo">Progate</div>
+      <div class="footer-list">
+        <ul>
+          <li>About</li>
+          <li>Jobs</li>
+          <li>Contact us</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
